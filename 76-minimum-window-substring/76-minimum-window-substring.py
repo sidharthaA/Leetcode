@@ -83,7 +83,6 @@
 #             if temp == minim:
 #                 best = i
 #         return s[best[0]:best[-1]+1]
-
 import sys
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
