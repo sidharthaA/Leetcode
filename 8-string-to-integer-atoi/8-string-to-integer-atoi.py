@@ -44,7 +44,7 @@ class Solution:
             else:
                 parsed=parsed*10+int(curr)
             i+=1
-            print(parsed)
+            # print(parsed)
         parsed*=sign
 
 
