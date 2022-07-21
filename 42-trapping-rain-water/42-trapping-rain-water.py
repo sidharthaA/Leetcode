@@ -1,8 +1,8 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
         left = []
-        right = []
-        final = []
+        # right = []
+        final = 0
         maxVal = 0
         for l in height:
             left.append(maxVal)
@@ -10,18 +10,16 @@ class Solution:
                 maxVal = l
         maxVal = 0
         for r in range(len(height) - 1, -1, -1):
-            right.append(maxVal)
+            # right.append(maxVal)
             temp = min(left[r], maxVal) - height[r]
             if temp >= 0:
-                final.append(temp)
-            else:
-                final.append(0)
+                final += temp
             if height[r] > maxVal:
                 maxVal = height[r]
         # print(left)
         # print(right)
         # print(sum(final))
-        return sum(final)
+        return final
         
         
         
