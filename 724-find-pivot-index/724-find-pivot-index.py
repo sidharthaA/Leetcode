@@ -3,7 +3,6 @@ class Solution:
         total = 0
         for num in nums:
             total += num
-        # print(total)
         left = 0
         right = total - nums[0]
         for index in range(len(nums)):
