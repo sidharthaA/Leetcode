@@ -13,12 +13,10 @@ class Solution:
         current = float('-inf') # to keep a track of current position
         flag = True
         for character in s:
-            # print(character)
             if character not in count_dictionary:
                 return False
             for position in count_dictionary[character]:
                 if position > current:
-                    # print('position:', position, '\ncurrent:', current)
                     current = position
                     flag = False
                     break
