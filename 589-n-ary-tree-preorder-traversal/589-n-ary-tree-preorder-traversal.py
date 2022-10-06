@@ -26,6 +26,5 @@ class Solution:
         while stack:
             candidate = stack.pop()
             output.append(candidate.val)
-            for child in reversed(candidate.children):
-                stack.append(child)
-        return output  
+            stack.extend(candidate.children[::-1])
+        return output
