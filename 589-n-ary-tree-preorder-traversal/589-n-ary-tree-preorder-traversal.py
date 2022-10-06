@@ -19,14 +19,13 @@ class Solution:
         # return output
     
         '''iteratively'''
-        stack = deque()
+        stack = []
         output = []
-        if not root: return
-        stack.appendleft(root)
+        if not root: return []
+        stack.append(root)
         while stack:
-            candidate = stack.popleft()
+            candidate = stack.pop()
             output.append(candidate.val)
             for child in reversed(candidate.children):
-                stack.appendleft(child)
-        return output
-        
+                stack.append(child)
+        return output  
