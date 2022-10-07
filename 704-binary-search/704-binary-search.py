@@ -1,7 +1,7 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         length = len(nums)
-        left, right, mid = 0 , length - 1, length // 2
+        left, right, mid = 0 , length - 1, (length - 1) // 2
         while left <= right:
             if target == nums[mid]:
                 return mid
