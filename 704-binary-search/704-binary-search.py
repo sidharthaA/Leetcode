@@ -3,7 +3,6 @@ class Solution:
         length = len(nums)
         left, right, mid = 0 , length - 1, length // 2
         while left <= right:
-            # print('left:', left, '\tright:', right, '\tmid:', mid)
             if target == nums[mid]:
                 return mid
             elif target > nums[mid]:
