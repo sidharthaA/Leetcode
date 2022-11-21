@@ -1,12 +1,8 @@
 class Solution:
     def interpret(self, command: str) -> str:
-        # com = {'G': 'G', '()': 'o', '(al)': 'al'}
         output = ''
         i = 0
         while i < len(command):
-            # print(command[i])
-            # print(command[i: i + 2])
-            # print(command[i: i + 4])
             if command[i] == 'G':
                 output += 'G'
                 i += 1
