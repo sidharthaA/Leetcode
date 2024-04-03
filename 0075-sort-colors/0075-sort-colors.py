@@ -4,9 +4,7 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         l, r, i = 0 , len(nums) - 1, 0
-        while i < len(nums):
-            if i > r:
-                return
+        while i <= r:
             if nums[i] == 0:
                 nums[i], nums[l] = nums[l], nums[i]
                 i += 1
