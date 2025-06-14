@@ -5,10 +5,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sidharthaA/Leetcode/tree/master/0001-two-sum) |
+| [2502-sort-the-people](https://github.com/sidharthaA/Leetcode/tree/master/2502-sort-the-people) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sidharthaA/Leetcode/tree/master/0001-two-sum) |
+| [2502-sort-the-people](https://github.com/sidharthaA/Leetcode/tree/master/2502-sort-the-people) |
 ## Math
 |  |
 | ------- |
@@ -17,4 +19,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/sidharthaA/Leetcode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
+## String
+|  |
+| ------- |
+| [2502-sort-the-people](https://github.com/sidharthaA/Leetcode/tree/master/2502-sort-the-people) |
+## Sorting
+|  |
+| ------- |
+| [2502-sort-the-people](https://github.com/sidharthaA/Leetcode/tree/master/2502-sort-the-people) |
 <!---LeetCode Topics End-->
