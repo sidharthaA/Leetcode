@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/sidharthaA/Leetcode/tree/master/0001-two-sum) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/sidharthaA/Leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/sidharthaA/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2502-sort-the-people](https://github.com/sidharthaA/Leetcode/tree/master/2502-sort-the-people) |
 ## Hash Table
 |  |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [2432-number-of-zero-filled-subarrays](https://github.com/sidharthaA/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/sidharthaA/Leetcode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 ## Greedy
 |  |
