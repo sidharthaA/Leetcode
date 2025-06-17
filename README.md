@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2502-sort-the-people](https://github.com/sidharthaA/Leetcode/tree/master/2502-sort-the-people) |
+| [3379-score-of-a-string](https://github.com/sidharthaA/Leetcode/tree/master/3379-score-of-a-string) |
 ## Sorting
 |  |
 | ------- |
